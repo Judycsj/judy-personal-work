@@ -16,9 +16,7 @@
 这套仓库按“内容角色”拆层，不按主题堆在一起。
 
 - `rules/`：会长期约束你和 AI 协作方式的规则
-- `workflows/`：一类任务怎么做
-- `methods/`：你自己的产品/分析方法
-- `templates/`：固定输出骨架
+- `guides/`：任务说明、工作方法、starter、模板
 - `knowledge/`：长期有效的知识沉淀
 - `projects/`：正在进行或刚结束、还没提炼完的项目材料
 - `references/`：链接、索引、系统入口、资料清单
@@ -26,6 +24,7 @@
 一句话：
 
 **项目先放 `projects/`，沉淀后再提炼进 `knowledge / methods / rules / workflows / templates`。**
+**项目先放 `projects/`，沉淀后再提炼进 `rules / guides / knowledge / references`。**
 
 ## 目录结构
 
@@ -33,9 +32,7 @@
 judy-personal-work/
 ├── README.md
 ├── rules/
-├── workflows/
-├── methods/
-├── templates/
+├── guides/
 ├── knowledge/
 │   ├── shopee-ads/
 │   └── ai-native/
@@ -52,21 +49,11 @@ judy-personal-work/
 - 和 AI 协作的默认边界
 - 写作、分析、引用材料的统一标准
 
-### `workflows/`
-- PRD 怎么写
-- RCA 怎么做
-- review 怎么整理
+### `guides/`
+- 一类任务怎么做
 - AI-native workspace 怎么搭
-
-### `methods/`
-- 你自己的方法论
-- 比如问题定义、口径统一、实验判断、规则设计
-
-### `templates/`
-- PRD 模板
-- RCA 模板
-- review 模板
-- 分享文档模板
+- 当前可用的方法笔记
+- 固定模板
 
 ### `knowledge/`
 - 长期有效、不依赖当前公司的知识
@@ -96,9 +83,7 @@ judy-personal-work/
 
 ### 2. 项目推进中
 - 规则性的东西，抽到 `rules/`
-- 方法性的东西，抽到 `methods/`
-- 稳定流程，抽到 `workflows/`
-- 固定格式，抽到 `templates/`
+- 任务说明、方法笔记、模板，抽到 `guides/`
 - 长期有效知识，抽到 `knowledge/`
 
 ### 3. 项目结束后
@@ -108,20 +93,20 @@ judy-personal-work/
 ## 当前已放入的内容
 
 - `rules/pm-ai-collaboration-rules.md`
-- `workflows/ai-native-workspace-starter.md`
+- `guides/ai-native-workspace-starter.md`
+- `guides/method-notes.md`
+- `guides/templates/`
 - `knowledge/shopee-ads/sharing/shopee-ads-sharing-draft.md`
 
 ## 建议你优先补的内容
 
-1. `methods/problem-framing.md`
-2. `methods/metric-alignment.md`
-3. `methods/experiment-judgment.md`
-4. `methods/rule-design-principles.md`
-5. `references/knowledge-index.md`
+1. `references/knowledge-index.md`
+2. `rules/pm-ai-collaboration-rules.md`
+3. `guides/method-notes.md`
 
 ## 维护原则
 
 - 不要把所有东西都放在根目录
 - 不要把“项目过程”直接当“长期知识”
-- 一份内容如果未来还会跨公司复用，优先提炼到 `rules / workflows / methods / templates / knowledge`
-
+- 一份内容如果未来还会跨公司复用，优先提炼到 `rules / guides / knowledge / references`
+- 方法论没长稳之前，不要过早拆成很多单独文件；先放在 `guides/method-notes.md`
