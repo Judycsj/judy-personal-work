@@ -23,7 +23,6 @@
 
 一句话：
 
-**项目先放 `projects/`，沉淀后再提炼进 `knowledge / methods / rules / workflows / templates`。**
 **项目先放 `projects/`，沉淀后再提炼进 `rules / guides / knowledge / references`。**
 
 ## 目录结构

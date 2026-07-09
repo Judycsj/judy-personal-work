@@ -16,12 +16,6 @@ workspace/
 │   ├── common/
 │   ├── team/
 │   └── personal/<name>/
-│       ├── README.md
-│       ├── agent-rules/
-│       ├── reports/
-│       ├── notes/
-│       ├── references/
-│       └── workflows/
 ├── skills/
 │   ├── common/
 │   ├── team/
@@ -34,13 +28,13 @@ workspace/
 这个结构最重要的不是目录名，而是两层分法：
 
 - 第一层按 `common / team / personal` 分 scope
-- 第二层按 `rules / reports / notes / references / workflows` 分用途
+- 第二层按职责拆层：知识放 `docs/`，AI 入口放 `skills/`，固定骨架放 `templates/`，执行工具放 `scripts/`
 
 ## 3. 六个核心模块
 
 ### 3.1 `docs/`
 
-知识库入口。`common` 放跨团队共识，`team` 放团队资料，`personal` 放个人规则、草稿和沉淀。
+知识内容本体。`common` 放跨团队共识，`team` 放团队资料，`personal` 放个人沉淀。
 
 ### 3.2 `skills/`
 
