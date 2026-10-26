@@ -54,3 +54,5 @@
 - 入口优先写“去哪里找”，不是先写一堆解释。
 - 如果某类知识已经稳定，优先放进 `knowledge/`；这里只保留索引。
 - 如果某类材料只服务当前项目，优先放 `projects/`，不要直接堆进索引。
+
+- [AI短剧漫剧平台商业化知识库](../knowledge/ai-drama-monetization/README.md)；[资料与数据索引](ai-drama-monetization/sources.md)。
