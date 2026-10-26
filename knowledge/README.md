@@ -13,4 +13,4 @@
 - 没提炼过的原始材料
 
 
-- [AI短剧漫剧平台商业化知识库](ai-drama-monetization/README.md)：广告、会员、电商与平台经营。
+- [红果与 AI 漫剧平台的商业化模式](ai-drama-monetization/README.md)：广告、会员、电商与平台经营。

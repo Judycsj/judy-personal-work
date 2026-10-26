@@ -110,4 +110,4 @@ judy-personal-work/
 - 一份内容如果未来还会跨公司复用，优先提炼到 `rules / guides / knowledge / references`
 - 方法论没长稳之前，不要过早拆成很多单独文件；先放在 `guides/method-notes.md`
 
-- [AI短剧漫剧平台商业化知识库](knowledge/ai-drama-monetization/README.md)
+- [红果与 AI 漫剧平台的商业化模式](knowledge/ai-drama-monetization/README.md)
